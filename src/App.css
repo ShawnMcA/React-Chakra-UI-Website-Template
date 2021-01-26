@@ -1,3 +1,33 @@
+@keyframes slideDown {
+  from {transform: translateY(-40px);}
+  to {transform: translateY(0)}
+}
+
+@keyframes slideDownShort {
+  from {transform: translateY(-40px);}
+  to {transform: translateY(0)}
+}
+
+@keyframes slideDownFar {
+  from {transform: translateY(-100px);}
+  to {transform: translateY(0)}
+}
+
+@keyframes fadeIn {
+  from {opacity: 60%}
+  to {opacity: 100%}
+}
+
+@keyframes scaleIn {
+  from {transform: scale(1, 0)}
+  to {transform: scale(1, 1)}
+}
+
+@keyframes rotateYIn {
+  from {transform: rotateY(0)}
+  to {transform: rotateY(300%)}
+}
+
 * {
   padding: 0;
   margin: 0;

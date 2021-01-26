@@ -5,8 +5,6 @@ import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
 
-
-
 ReactDOM.render(
   <StrictMode>
     <ChakraProvider theme={theme}>
