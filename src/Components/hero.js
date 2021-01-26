@@ -5,7 +5,7 @@ import bg from '../Media/bgmain.jpg';
 
 const Hero = () => {
   return(
-    // ========================== HERO CONTAINER ============================= //
+    // =========== HERO CONTAINER ============================= //
     <Box 
       h='100vh' 
       w='100%' 
@@ -14,7 +14,7 @@ const Hero = () => {
       bgRepeat='no-repeat'
       bgSize='cover'
     >
-      {/* ========================== HERO CONTENT CONTAINER ============================= */}
+      {/* =========== HERO CONTENT CONTAINER ============================= */}
       <Center 
         justifyContent='center' 
         h='100%' 
@@ -22,9 +22,9 @@ const Hero = () => {
         px={8}
         bgGradient='linear(to-b, rgba(0, 0, 0, .4) 0%, rgba(255, 255, 255, .1) 30%)'
       >
-        {/* ========================== HERO CONTENT CONTAINER ============================= */}
+        {/* =========== HERO CONTENT CONTAINER ============================= */}
         <Flex direction='column' color='white' align='center'>
-          {/* ========================== HERO HEADER ============================= */}
+          {/* =========== HERO HEADER ============================= */}
           <Heading 
             as='h1' 
             size='4xl' 
@@ -37,7 +37,7 @@ const Hero = () => {
           >
             Header text here...
           </Heading>
-          {/* ========================== HERO SUB-HEADER ============================= */}
+          {/* =========== HERO SUB-HEADER ============================= */}
           <Heading 
             as='h2' 
             fontSize={24} 
@@ -50,7 +50,7 @@ const Hero = () => {
           >
             Call to action subtext
           </Heading>
-          {/* ========================== HERO BUTTONS CONTAINER ============================= */}
+          {/* =========== HERO BUTTONS CONTAINER ============================= */}
           <Stack direction="row" spacing={5} justify='flex-end' mt='20px'>
             <Button leftIcon={<EmailIcon />} colorScheme='green' variant="solid" filter='drop-shadow(.5px 2.5px 2px rgba(0, 0, 0, .4))'>
               Email
