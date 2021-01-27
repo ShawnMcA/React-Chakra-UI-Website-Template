@@ -3,11 +3,11 @@ import { Stack, Button, Box, Heading, Flex, Center } from '@chakra-ui/react';
 import { EmailIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 import bg from '../Media/bgmain.jpg';
 
-const Hero = () => {
+const Hero = props => {
   return(
     // =========== HERO CONTAINER ============================= //
     <Box 
-      h='100vh' 
+      h={props.height} 
       w='100%' 
       bgImage={`url(${bg})`}
       bgPosition='center'
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* =========== HERO HEADER ============================= */}
           <Heading 
             as='h1' 
-            size='4xl' 
+            fontSize={{base: '4xl', sm: '5xl'}}
             textShadow='
               0px 4px 3px rgba(0,0,0,0.2),
               0px 8px 13px rgba(0,0,0,0.1),
