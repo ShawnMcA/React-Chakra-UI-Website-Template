@@ -134,7 +134,7 @@ const NavBar = props => {
               filter={{ base:'drop-shadow(.5px 2.5px 2px rgba(0, 0, 0, .2))', md: 'none' }}
               zIndex='1'
               animation={{
-                base: 'slideDown .5s ease-in',
+                base: 'slideDown .35s ease-out',
                 md: 'none'
               }}
             >
@@ -169,7 +169,7 @@ const NavBar = props => {
               }}
               filter={{ base:'drop-shadow(.5px 2.5px 2px rgba(0, 0, 0, .4))', md: 'none' }}
               animation={{
-                base: 'slideDown .71s ease-in',
+                base: 'slideDown .55s ease-out',
                 md: 'none'
               }}
             >
