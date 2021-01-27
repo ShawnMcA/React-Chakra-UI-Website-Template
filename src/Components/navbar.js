@@ -94,9 +94,8 @@ const NavBar = props => {
               py={5}
               px={4} 
               userSelect='none' 
-              transition='all .3s ease'
-              bgColor={{ base: 'green.400', md:'transparent'}} 
-              _hover={{ color: 'white', bgColor: 'green.500'}}
+              bgColor={{ base: 'green.400', md:'transparent' }} 
+              _hover={{ color: 'white', bgColor: 'green.500' }}
               w={{
                 base: '100%', 
                 md: 'initial'
@@ -125,8 +124,8 @@ const NavBar = props => {
               py={5} 
               px={4} 
               userSelect='none'  
-              bgColor={{ base: 'green.400', md:'transparent'}}
-              _hover={{ color: 'white', bgColor: 'green.500'}}
+              bgColor={{ base: 'green.400', md:'transparent' }}
+              _hover={{ color: 'white', bgColor: 'green.500' }}
               w={{
                 base: '100%', 
                 md: 'initial'
@@ -160,7 +159,6 @@ const NavBar = props => {
               py={5} 
               px={4} 
               userSelect='none' 
-              transition='all .3s ease' 
               bgColor={{ base: 'green.400', md:'transparent'}}
               _hover={{ color: 'white', bgColor: 'green.500'}}
               w={{
