@@ -8,7 +8,7 @@ function App() {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
   const updateWindowHeight = () => {
-    setWindowHeight(window.innerHeight);
+    setWindowHeight(window.innerHeight - 1);
   }
 
   useEffect(() => {
