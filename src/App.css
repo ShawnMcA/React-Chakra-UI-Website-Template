@@ -1,11 +1,11 @@
 @keyframes slideDown {
-  from {transform: translateY(-40px);}
-  to {transform: translateY(0)}
+  0% {transform: translateY(-40px);}
+  100% {transform: translateY(0)}
 }
 
 @keyframes fadeIn {
-  from {opacity: 60%}
-  to {opacity: 100%}
+  0% {opacity: 60%}
+  100% {opacity: 100%}
 }
 
 * {
